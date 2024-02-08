@@ -18,22 +18,27 @@
     align-items: center;
   }
 
-  .gracioso {
-    font-size: 3em;
-    text-align: center;
+  .contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
   }
 
   .imagen {
     max-width: 100%;
     height: auto;
+    margin: 0 10px; /* Añadir espacio entre las imágenes */
   }
 </style>
 </head>
 <body>
+  <div class="contenedor-imagenes">
+    <img class="imagen" src="https://i.pinimg.com/564x/cd/e5/74/cde57407f778427829b1278c79f5e668.jpg" alt="Imagen 1">
+    <img class="imagen" src="https://usagif.com/wp-content/uploads/gifs/monkey-23.gif" alt="Imagen 2">
+  </div>
   <div class="gracioso">
     Muy graciosa don comemierda
   </div>
-  <img class="imagen" src="https://usagif.com/wp-content/uploads/gifs/monkey-23.gif" alt="Mono gracioso">
 </body>
 </html>
