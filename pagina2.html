@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página 2</title>
+    <title>Página 3</title>
     <style>
         body {
             margin: 0;
@@ -20,32 +20,23 @@
             margin-top: 100px;
             border: 1px solid #f5f5dc;
             padding: 5px;
+            animation: changeColor 5s infinite; /* Animación de cambio de color */
         }
-        .valentin {
-            color: #8e0000;
+        .message {
+            color: white; /* Color del texto */
+            font-family: sans-serif; /* Fuente Sans Serif */
+            font-size: 20px; /* Aumento de tamaño de fuente */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombreado leve */
         }
-        .btn {
-            padding: 10px 20px;
-            font-size: 18px;
-            margin-top: 20px;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-        }
-        .btn-yes {
-            background-color: #4CAF50;
-            color: white;
-            margin-right: 20px;
-        }
-        .btn-no {
-            background-color: #f44336;
-            color: white;
+        @keyframes changeColor {
+            0% { color: white; }
+            50% { color: #8e0000; } /* Cambio de color gradual */
+            100% { color: white; }
         }
     </style>
 </head>
 <body>
-    <div class="question">¿Quieres ser miaxdsxa <span class="valentin">San Valentín</span>?</div>
-    <button class="btn btn-yes" onclick="window.location.href='pagina3.html'">¡Sí!</button>
-    <button class="btn btn-no" onclick="window.location.href='pagina4.html'">¡No!</button>
+    <div class="question">¡Te amo Polilla!</div>
+    <p class="message">¡Te amo! Y merecer oirlo en persona y lo harás, solo quiero que sepas de una vez que quiero pasar este 14 de febrero y todos los años contigo.</p>
 </body>
 </html>
