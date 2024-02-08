@@ -28,7 +28,11 @@ body {
     border-radius: 5px;
     background-color: #4CAF50;
     color: white;
-}body {
+}Claro, aquí está la corrección para la página 4, cambiando la fuente a una Sans Serif y poniendo el texto en negrita:
+
+### styles.css:
+```css
+body {
     margin: 0;
     padding: 0;
     background-image: url(https://i.pinimg.com/474x/b4/59/bc/b459bc18aa5dde44b23e374920291d15.jpg);
@@ -62,11 +66,12 @@ body {
 
 .message {
     color: white;
+    font-family: sans-serif; /* Cambio de fuente */
     font-size: 24px;
+    font-weight: bold; /* Texto en negrita */
     margin-top: 20px;
 }
 
 .image {
     margin-top: 20px;
 }
-
