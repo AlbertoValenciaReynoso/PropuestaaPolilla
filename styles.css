@@ -71,4 +71,53 @@ body {
 
 .image {
     margin-top: 20px;
+}body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.pinimg.com/474x/b4/59/bc/b459bc18aa5dde44b23e374920291d15.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
 }
+
+.container {
+    margin-top: 100px;
+}
+
+.question {
+    color: white;
+    font-size: 36px; /* Aumento de tamaño */
+    border: 1px solid #f5f5dc;
+    padding: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.message {
+    color: white;
+    font-family: sans-serif; /* Cambio de fuente */
+    font-size: 24px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombreado leve */
+}
+
+.fade-effect {
+    color: transparent; /* Inicialmente transparente */
+    animation: fadeColor 5s infinite; /* Animación de fade */
+}
+
+@keyframes fadeColor {
+    0% { color: transparent; }
+    50% { color: white; } /* Cambio de color a blanco */
+    100% { color: white; } /* Mantener el color blanco
+
